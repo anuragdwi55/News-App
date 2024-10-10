@@ -1,21 +1,27 @@
-# React News Website
+# React News App
 
-This is a simple React news website that fetches top headlines using the News API and displays them in a user-friendly format. It includes a home page with the latest news articles and an about section with information about the developer.
+This is a simple news application built with React that fetches and displays top headlines using the News API.
 
 ## Features
-- Displays the top 15 news articles with images, titles, and source information.
-- Includes an "About" section with the developer's introduction and GitHub link.
-- Responsive design with a navigation bar for switching between "Home" and "About".
+- Displays top news articles.
+- Navigation between Home and About pages.
+- About page contains developer information and a link to their GitHub profile.
 
-## Setup Instructions
+## Technologies Used
+- React
+- Axios
+- React Router
+- CSS for styling
+
+## Getting Started
 
 ### Prerequisites
-- Node.js and npm installed on your machine.
-- A News API key from [https://newsapi.org](https://newsapi.org).
+- Node.js (version 14 or above)
+- npm (Node package manager)
 
-### Steps to Run the App
+### Steps to Set Up the Project Locally
 
-1. **Clone the Repository**:
+1. **Clone the Repository**
+   Open your terminal and run the following command:
    ```bash
-   git clone https://github.com/anuragdwi55/your-repo-name.git
-   cd your-repo-name
+   git clone <YOUR_GITHUB_REPO_URL>
