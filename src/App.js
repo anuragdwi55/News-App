@@ -11,7 +11,7 @@ function App() {
   // useEffect to fetch the news data when the component mounts
   useEffect(() => {
     // Making a GET request to the News API to fetch top headlines for the US
-    axios.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=258123e532594610aa3c9c2451a1a3e9')
+    axios.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=MY_API_KEY')
       .then(response => {
         // Updating the headlines state with the articles retrieved from the API
         setHeadlines(response.data.articles);
